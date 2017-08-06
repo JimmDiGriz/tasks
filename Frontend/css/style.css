@@ -1,0 +1,27 @@
+.border {
+    border: 1px solid gray;
+}
+
+.little {
+    width: 20px;
+    height: 20px;
+}
+
+.table td {
+    text-align: center;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.table td.text {
+    max-width: 177px;
+}
+.table td.text span {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    max-width: 100%;
+}
